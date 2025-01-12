@@ -1,6 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
+#Checks if the host is on the network
 
-# Check if an argument is provided
+# Check if the argument is passed
 if [ "$#" -ne 1 ]; then
     echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
     exit 1
